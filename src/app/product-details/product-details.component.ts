@@ -10,11 +10,10 @@ export class ProductDetailsComponent implements OnInit {
 
   constructor(private route:ActivatedRoute) { }
 
-  public productId!: string | null;
+  public productId: any;
 
   ngOnInit(){
-    let id = this.route.snapshot.paramMap.get('id');
-    this.productId = id;
+    let id = this.route.params.subscribe(params =>{ this.productId = params['id']});
   }
 
 }

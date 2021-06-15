@@ -30,8 +30,6 @@ export class CourseComponent{
 
     constructor(private router:Router){}
 
-    onSelect(products: { id: any; }){
-      this.router.navigate(['/products', products.id])
-    }
+   
     
 }
