@@ -1,20 +1,13 @@
 [
-    {"name" : "Afghanistan", "code" : "AF"},
-    {"name" : "Åland Islands", "code" : "AX"},
-    {"name" : "Albania", "code" : "AL"},
-    {"name" : "Algeria", "code" : "DZ"},
-    {"name" : "American Samoa", "code" : "AS"},
-    {"name" : "AndorrA", "code" : "AD"},
-    {"name" : "Angola", "code" : "AO"},
-    {"name" : "Anguilla", "code" : "AI"},
-    {"name" : "Antarctica", "code" : "AQ"},
-    {"name" : "Antigua and Barbuda", "code" : "AG"},
-    {"name" : "Argentina", "code" : "AR"},
-    {"name" : "Armenia", "code" : "AM"},
-    {"name" : "Aruba", "code" : "AW"},
-    {"name" : "Australia", "code" : "AU"},
-    {"name" : "Austria", "code" : "AT"},
-    {"name" : "Azerbaijan", "code" : "AZ"},
-    {"name" : "Bahamas", "code" : "BS"},
-    {"name" : "Bahrain", "code" : "BH"}
-    ]
+   {"id":1,"name":"Potato","category":"veggies","img":"image found","price":"$30","description":"veggies"},
+   {"id":2,"name":"Lettuce","category":"veggies","img":"image found","price":"$7","description":"veggies"},
+   {"id":3,"name":"Broccoli","category":"veggies","img":"image found","price":"$19","description":"veggies"},
+
+   {"id":4,"name":"Coca-Cola","category":"beverages","img":"image found","price":"$12","description":"beverages"},
+   {"id":5,"name":"Fanta","category":"beverages","img":"image found","price":"$10","description":"beverages"},
+   {"id":6,"name":"Pepsi","category":"beverages","img":"image found","price":"$15","description":"beverages"},
+
+   {"id":7,"name":"Doritos","category":"crisps","img":"image found","price":"$4","description":"crisps"},
+   {"id":8,"name":"Nachos","category":"crisps","img":"image found","price":"$6","description":"crisps"},
+   {"id":9,"name":"Pringles","category":"crisps","img":"image found","price":"$5","description":"crisps"}
+]
