@@ -15,12 +15,12 @@ interface Products{
 }
 
 @Component({
-  selector: 'app-course',
-  templateUrl: './course.component.html',
-  styleUrls: ['./course.component.scss']
+  selector: 'app-product',
+  templateUrl: './product.component.html',
+  styleUrls: ['./product.component.scss']
 })
 
-export class CourseComponent{
+export class ProductComponent{
   
     title = "json file fetch"
     products:Products[] = products;
