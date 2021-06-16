@@ -13,7 +13,7 @@ export class ProductDetailsComponent implements OnInit {
   public productId: any;
 
   ngOnInit(){
-    let id = this.route.params.subscribe(params =>{ this.productId = params['id']});
+    this.route.params.subscribe(params =>{ this.productId = params['id']});
   }
 
 }
